@@ -1,0 +1,16 @@
+RAG retrieves even when retrieval is unnecessary
+RAG blindly trusts retrieved documents
+RAG doesn't verify its own answers
+
+indiscremenent retrieval
+
+
+
+
+Self-RAG stands for Self Reflective RAG where the LLM actively judges its own retrieval, evidence, and answers instead of blindly trusting retrieved documents.
+
+BASICALLY THINK THE ANSWERS -----------------------------------------
+Should retrieval happen?
+Are the retrieved documents relevant?
+Is the generated response grounded in the retrieved documents?
+Does the response actually answer the user's question?
